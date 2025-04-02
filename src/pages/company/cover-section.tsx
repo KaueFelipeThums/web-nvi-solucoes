@@ -33,7 +33,7 @@ const CoverSectionLabel = ({ className, ...props }: React.ComponentProps<typeof 
 };
 
 const CoverSectionTitle = ({ className, ...props }: React.ComponentProps<typeof PageTitle>) => {
-  return <PageTitle className={cn('text-5xl md:text-6xl', className)} {...props} />;
+  return <PageTitle className={cn('text-4xl md:text-6xl', className)} {...props} />;
 };
 
 const CoverSectionDescription = ({ className, ...props }: React.ComponentProps<typeof PageDescription>) => {
@@ -64,7 +64,7 @@ const CoverSection = () => {
         <CoverSectionContent>
           <CoverSectionLabel>Empresa</CoverSectionLabel>
           <CoverSectionTitle>
-            <span className="text-primary">NVI Soluções</span> Transformando Telecomunicações
+            <span className="text-primary">NVI Soluções</span> Transformando a Conectividade
           </CoverSectionTitle>
           <CoverSectionDescription>
             Oferecemos soluções inovadoras para aumentar a produtividade e a qualidade dos serviços no setor de

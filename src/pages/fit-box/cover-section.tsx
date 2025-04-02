@@ -30,7 +30,7 @@ const CoverSectionGridImage = ({ className, ...props }: React.ComponentProps<'sv
 };
 
 const CoverSectionTitle = ({ className, ...props }: React.ComponentProps<typeof PageTitle>) => {
-  return <PageTitle className={cn('text-5xl md:text-6xl text-white', className)} {...props} />;
+  return <PageTitle className={cn('text-4xl md:text-6xl text-white', className)} {...props} />;
 };
 
 const CoverSectionDescription = ({ className, ...props }: React.ComponentProps<typeof PageDescription>) => {
