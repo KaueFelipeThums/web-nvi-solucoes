@@ -1,5 +1,6 @@
 import { Button, Sheet } from '@kaue-thums/web-ui-components';
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import { cn } from '@/lib/utils';
 
 type HeaderNavigationProps = React.ComponentProps<'a'>;
@@ -19,6 +20,8 @@ const HeaderSheetNavigationLink = ({ className, ...props }: HeaderNavigationProp
 };
 
 const HeaderSheetNavigation = ({ className, ...props }: React.ComponentProps<typeof Sheet>) => {
+  const navigate = useNavigate();
+
   return (
     <Sheet
       {...props}
@@ -27,9 +30,9 @@ const HeaderSheetNavigation = ({ className, ...props }: React.ComponentProps<typ
     >
       <nav>
         <ul className="flex flex-col gap-5 text-xl font-bold text-gray-300">
-          <HeaderSheetNavigationLink>Sobre</HeaderSheetNavigationLink>
-          <HeaderSheetNavigationLink>Fit Box</HeaderSheetNavigationLink>
-          <HeaderSheetNavigationLink>Contato</HeaderSheetNavigationLink>
+          <HeaderSheetNavigationLink onClick={() => navigate('/company')}>Sobre</HeaderSheetNavigationLink>
+          <HeaderSheetNavigationLink onClick={() => navigate('/')}>Fit Box</HeaderSheetNavigationLink>
+          <HeaderSheetNavigationLink onClick={() => navigate('/contact')}>Contato</HeaderSheetNavigationLink>
         </ul>
       </nav>
     </Sheet>

@@ -110,7 +110,7 @@ const CoverSection = () => {
             <span className="text-seccondary-alt">Fit Box</span>, o suporte <br /> ideal para seu <br /> roteador!
           </CoverSectionTitle>
           <CoverSectionDescription>
-            A solução definitiva para organizar e <br /> padronizar o âmbiente de suas instalações <br />
+            A solução definitiva para organizar e padronizar o âmbiente de suas instalações <br />
             de internet.
           </CoverSectionDescription>
           <div className="space-y-7">
