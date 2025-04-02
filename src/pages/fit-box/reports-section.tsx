@@ -64,7 +64,7 @@ const ReportsSectionContent = ({ className, ...props }: React.ComponentProps<'di
 
 const ReportsSectionCard = ({ className, ...props }: React.ComponentProps<typeof Card>) => {
   return (
-    <div className="p-1">
+    <div>
       <Card className={cn('text-primary select-none', className)} {...props} />
     </div>
   );
@@ -110,7 +110,7 @@ const ReportsSection = () => {
           <ReportsSectionTitle>Relatos e Avaliações</ReportsSectionTitle>
           <ReportsSectionDescription>Veja o que nossos clientes dizem sobre o FIT BOX</ReportsSectionDescription>
         </ReportsSectionContent>
-        <ReportsSectionContent className="col-span-full px-10">
+        <ReportsSectionContent className="col-span-full px-9">
           <Carousel
             opts={{
               align: 'start',

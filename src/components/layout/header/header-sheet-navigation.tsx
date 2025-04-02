@@ -19,14 +19,20 @@ const HeaderSheetNavigationLink = ({ className, ...props }: HeaderNavigationProp
   );
 };
 
-const HeaderSheetNavigation = ({ className, ...props }: React.ComponentProps<typeof Sheet>) => {
+type HeaderSheetNavigationProps = React.ComponentProps<typeof Sheet> & {
+  type?: 'default' | 'white';
+};
+
+const HeaderSheetNavigation = ({ type = 'default', className, ...props }: HeaderSheetNavigationProps) => {
   const navigate = useNavigate();
 
   return (
     <Sheet
       {...props}
       className={cn('w-[250px]', className)}
-      trigger={<Button size="icon" variant="link" className="text-white md:hidden" icon="Menu" />}
+      trigger={
+        <Button size="icon" variant="link" className={cn(type === 'white' && 'text-white', 'md:hidden')} icon="Menu" />
+      }
     >
       <nav>
         <ul className="flex flex-col gap-5 text-xl font-bold text-gray-300">

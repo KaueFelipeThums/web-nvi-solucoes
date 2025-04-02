@@ -20,7 +20,7 @@ const Header = ({ type = 'default' }: HeaderProps) => {
           icon="ShoppingCart"
           onClick={() => window.open('https://lista.mercadolivre.com.br/fit-box-fttx')}
         />
-        <HeaderSheetNavigation title="Menu" />
+        <HeaderSheetNavigation title="Menu" type={type} />
       </div>
     </header>
   );
