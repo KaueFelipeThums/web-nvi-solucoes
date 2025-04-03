@@ -4,7 +4,7 @@
 @source "../node_modules/@kaue-thums/web-ui-components/dist";
 
 @font-face {
-  font-family: 'Parkinsans';
+  font-family: 'SignikaNegative';
   src: url('@/assets/fonts/SignikaNegative.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
@@ -110,7 +110,7 @@
   --color-sidebar-foreground: var(--sidebar-foreground);
   --color-sidebar: var(--sidebar);
 
-  --font-family-parkinsans: "Parkinsans", sans-serif;
+  --font-family-signika-negative: "SignikaNegative", sans-serif;
 
   --color-seccondary-alt: var(--seccondary-alt);
   --color-primary-alt: var(--primary-alt);
@@ -139,7 +139,7 @@
 
 @layer base {
   * {
-    @apply border-border outline-ring/50 font-family-parkinsans;
+    @apply border-border outline-ring/50;
     scrollbar-width: thin;
   }
   body {

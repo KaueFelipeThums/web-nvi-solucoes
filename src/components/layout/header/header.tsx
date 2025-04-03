@@ -11,7 +11,7 @@ type HeaderProps = {
 const Header = ({ type = 'default' }: HeaderProps) => {
   return (
     <header className="flex h-20 items-center gap-2 justify-between z-10">
-      <img src={type === 'default' ? logo : logoWhite} className="w-36" />
+      <img src={type === 'default' ? logo : logoWhite} className="w-26 md:w-36" />
 
       <div className="flex items-center gap-5">
         <HeaderNavigation type={type} className="hidden md:block" />
