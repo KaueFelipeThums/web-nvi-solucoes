@@ -61,7 +61,7 @@ const AskLearnSection = () => {
           </AskLearnSectionDescription>
         </AskLearnSectionContent>
         <AskLearnSectionContent className="col-span-full">
-          <BaseAccordion type="multiple" className="w-full" defaultValue={['item-3']}>
+          <BaseAccordion type="single" className="w-full" defaultValue="item-3">
             <BaseAccordionItem value="item-3">
               <BaseAccordionTrigger className="[&>svg]:size-6">
                 <PageDescription>Informações técnicas</PageDescription>
