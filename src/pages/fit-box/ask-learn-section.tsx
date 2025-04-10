@@ -66,7 +66,7 @@ const AskLearnSection = () => {
               <BaseAccordionTrigger className="[&>svg]:size-6">
                 <PageDescription>Informações técnicas</PageDescription>
               </BaseAccordionTrigger>
-              <BaseAccordionContent className="py-5" forceMount>
+              <BaseAccordionContent className="py-5">
                 <AskLearnSectionContainer className="py-5">
                   <AskLearnSectionContent className="items-center order-2 md:order-1">
                     <img src={fttx2} className="max-w-[400px] w-full" />
@@ -107,7 +107,7 @@ const AskLearnSection = () => {
               <BaseAccordionTrigger className="[&>svg]:size-6">
                 <PageDescription>Como funciona o fit box fttx?</PageDescription>
               </BaseAccordionTrigger>
-              <BaseAccordionContent forceMount>
+              <BaseAccordionContent>
                 <AskLearnSectionContainer className="py-10">
                   <AskLearnSectionContent className="order-2 md:order-1">
                     <AskLearnSectionYoutubeVideo src="https://www.youtube.com/embed/XtZC1xIR1zc?si=BBDB9QtYxBQZCftr" />
@@ -131,7 +131,7 @@ const AskLearnSection = () => {
               <BaseAccordionTrigger className="[&>svg]:size-6">
                 <PageDescription>Como realizar a instalação?</PageDescription>
               </BaseAccordionTrigger>
-              <BaseAccordionContent forceMount>
+              <BaseAccordionContent>
                 <AskLearnSectionContainer className="py-10">
                   <AskLearnSectionContent>
                     <AskLearnSectionIcon>
