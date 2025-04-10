@@ -18,7 +18,11 @@ const Header = ({ type = 'default' }: HeaderProps) => {
         <Button
           size="icon"
           icon="ShoppingCart"
-          onClick={() => window.open('https://lista.mercadolivre.com.br/fit-box-fttx')}
+          onClick={() =>
+            window.open(
+              'https://lista.mercadolivre.com.br/_CustId_553304382?item_id=MLB3449713861&category_id=MLB271708&seller_id=553304382&client=recoview-selleritems&recos_listing=true#origin=vip&component=sellerData&typeSeller=classic',
+            )
+          }
         />
         <HeaderSheetNavigation title="Menu" type={type} />
       </div>

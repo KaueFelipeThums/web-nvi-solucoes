@@ -20,8 +20,8 @@ const FitBox = () => {
       <BeforeAfterSection />
       <NewsSection />
       <BuyOptionsSection />
-      <ReportsSection />
       <AskLearnSection />
+      <ReportsSection />
     </div>
   );
 };

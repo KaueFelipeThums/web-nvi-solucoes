@@ -75,7 +75,7 @@ const BuyOptionsSection = () => {
           <BuyOptionsSectionButton onClick={() => navigate('/contact')}>
             <img src={nviLogo} className="w-14 md:w-20" />
             <div className="space-y-3">
-              <BuyOptionsSectionLabel>Compre pelo site</BuyOptionsSectionLabel>
+              <BuyOptionsSectionLabel>Compre Direto de Fábrica</BuyOptionsSectionLabel>
               <BuyOptionsSectionDescription>
                 Recomendado para negociações e pedidos em maior quantidade.
               </BuyOptionsSectionDescription>
@@ -84,10 +84,16 @@ const BuyOptionsSection = () => {
         </BuyOptionsSectionContent>
 
         <BuyOptionsSectionContent>
-          <BuyOptionsSectionButton onClick={() => window.open('https://lista.mercadolivre.com.br/fit-box-fttx')}>
+          <BuyOptionsSectionButton
+            onClick={() =>
+              window.open(
+                'https://lista.mercadolivre.com.br/_CustId_553304382?item_id=MLB3449713861&category_id=MLB271708&seller_id=553304382&client=recoview-selleritems&recos_listing=true#origin=vip&component=sellerData&typeSeller=classic',
+              )
+            }
+          >
             <img src={mercadoLivreLogo} className="w-14 md:w-20" />
             <div className="space-y-3">
-              <BuyOptionsSectionLabel>Compre pelo Mercado Livre</BuyOptionsSectionLabel>
+              <BuyOptionsSectionLabel>Compre Pelo Mercado Livre</BuyOptionsSectionLabel>
               <BuyOptionsSectionDescription>
                 Recomendado para pequenas compras, usuários ou empresas que querem conhecer e testar o produto.
               </BuyOptionsSectionDescription>

@@ -123,7 +123,11 @@ const CoverSection = () => {
                 variant="link"
                 className="text-white"
                 icon="ShoppingCart"
-                onClick={() => window.open('https://lista.mercadolivre.com.br/fit-box-fttx')}
+                onClick={() =>
+                  window.open(
+                    'https://lista.mercadolivre.com.br/_CustId_553304382?item_id=MLB3449713861&category_id=MLB271708&seller_id=553304382&client=recoview-selleritems&recos_listing=true#origin=vip&component=sellerData&typeSeller=classic',
+                  )
+                }
               >
                 Mercado Livre
               </Button>
@@ -154,13 +158,13 @@ const CoverSection = () => {
               <CoverSectionImageNotificationContainer className="absolute top-[25%]">
                 <CoverSectionImageNotification>
                   <span>
-                    Aprmore suas instalações com <strong>organização</strong> e <br />
+                    Aprimore suas instalações com <strong>organização</strong> e <br />
                     <strong>praticidade</strong>
                   </span>
                 </CoverSectionImageNotification>
                 <CoverSectionImageNotification className="ml-auto" orientation="right">
                   <span>
-                    Aparelhagem <strong>bonita</strong> e <strong>profissional</strong>
+                    Instalação <strong>bonita</strong> e <strong>profissional</strong>
                   </span>
                 </CoverSectionImageNotification>
               </CoverSectionImageNotificationContainer>

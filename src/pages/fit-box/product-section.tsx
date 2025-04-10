@@ -87,8 +87,8 @@ const ProductSection = () => {
             Suporte <br /> Fit Box <span className="text-primary">FTTx</span>
           </ProductSectionTitle>
           <ProductSectionDescription>
-            Perfeito para organizar e padronizar instalações que utilizam roteador e <strong>ONU</strong>, garantindo um
-            layout mais eficiente, seguro e esteticamente harmonioso.
+            Perfeito para organizar e padronizar instalações que utilizam <strong>Roteador</strong> e{' '}
+            <strong>ONU</strong>, garantindo um layout mais eficiente, seguro e esteticamente harmonioso.
           </ProductSectionDescription>
         </ProductSectionContent>
       </ProductSectionContainer>
