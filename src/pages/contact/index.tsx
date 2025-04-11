@@ -1,7 +1,9 @@
+import { CoverSection } from './cover-section';
+
 const Contact = () => {
   return (
     <div>
-      <h1>Contact</h1>
+      <CoverSection />
     </div>
   );
 };
