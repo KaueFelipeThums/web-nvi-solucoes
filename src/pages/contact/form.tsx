@@ -44,7 +44,7 @@ const rules = {
 };
 
 const ContactForm = () => {
-  const [loading, startTransition] = useTransition();
+  const [loading] = useTransition();
   const form = useForm<ConactFormProps>({
     defaultValues: {
       step: 'form',
