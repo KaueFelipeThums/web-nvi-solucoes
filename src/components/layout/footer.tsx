@@ -111,7 +111,7 @@ const Footer = () => {
       <FooterContainer>
         <FooterContent className="col-span-full flex items-center">
           <FooterDescription className="text-center">
-            <FooterLink className="text-sm">© 2023 Copyright - Kaue Thums </FooterLink>
+            <FooterLink className="text-sm">© 2025 Copyright - Kaue Thums </FooterLink>
           </FooterDescription>
         </FooterContent>
       </FooterContainer>
