@@ -143,8 +143,8 @@ const ProductSection = () => {
             Suporte <br /> Fit Box <span className="text-primary">ONTx</span>
           </ProductSectionTitle>
           <ProductSectionDescription>
-            Indicado para organizar e padronizar instalações com <strong>ONT</strong>, proporcionando um ambiente mais
-            eficiente, seguro e bem estruturado.
+            Indicado para organizar e padronizar instalações com <strong>Roteador</strong> e <strong>ONT</strong>,
+            proporcionando um ambiente mais eficiente, seguro e bem estruturado.
           </ProductSectionDescription>
         </ProductSectionContent>
         <ProductSectionContent className="px-4">

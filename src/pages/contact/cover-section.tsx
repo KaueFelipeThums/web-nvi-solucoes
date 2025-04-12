@@ -88,7 +88,7 @@ const CoverSection = () => {
           </CoverSectionSocialContainer>
         </CoverSectionContent>
 
-        <CoverSectionContent className="px-4">
+        <CoverSectionContent>
           <ContactForm />
         </CoverSectionContent>
       </CoverSectionContainer>

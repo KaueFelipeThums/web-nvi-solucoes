@@ -10,7 +10,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@kaue-thums/web-ui-components": "^1.1.23",
+    "@emailjs/browser": "^4.4.1",
+    "@kaue-thums/web-ui-components": "^1.1.24",
     "@tailwindcss/vite": "^4.0.14",
     "clsx": "^2.1.1",
     "react": "^19.0.0",

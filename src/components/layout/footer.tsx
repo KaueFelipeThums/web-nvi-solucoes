@@ -61,7 +61,7 @@ const Footer = () => {
           <FooterDescription>Rua Angela Griza, SN Lot. Nelso GrizaIrani, Irani - SC 89680-000</FooterDescription>
           <FooterDescription>+55 (49) 99911-4784</FooterDescription>
         </FooterContent>
-        <FooterContent>
+        <FooterContent className="hidden sm:block">
           <FooterLabel>Acesse</FooterLabel>
           <FooterDescription>
             <FooterLink onClick={() => navigate('/company')}>Sobre</FooterLink>
