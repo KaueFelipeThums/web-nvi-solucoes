@@ -16,7 +16,7 @@ const routes = createBrowserRouter([
     ),
     children: [
       {
-        path: '/',
+        path: '*',
         element: <FitBox />,
       },
       {

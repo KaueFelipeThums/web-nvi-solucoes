@@ -12,6 +12,16 @@ import { ReportsSection } from './reports-section';
 const FitBox = () => {
   return (
     <div>
+      <title>NVI Soluções | Suporte Especializado Fit Box FTTx e ONTx</title>
+      <meta
+        name="description"
+        content="Soluções completas para instalações de internet mais organizadas, seguras e padronizadas."
+      />
+      <meta
+        name="keywords"
+        content="NVI Soluções, suporte Fit Box FTTx, suporte FitBox ONTx, instalação de internet, organização de rede, soluções em telecom, padronização de instalações"
+      />
+      <link rel="canonical" href="https://nvisolucoes.com.br/" />
       <CoverSection />
       <PatentSection />
       <MetricsSection />

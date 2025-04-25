@@ -259,7 +259,12 @@ const ContactForm = () => {
                 className="col-span-full"
                 render={({ field }) => (
                   <div className="flex items-center space-x-2">
-                    <Checkbox id="subscribe_email" checked={field.value} onCheckedChange={field.onChange} />
+                    <Checkbox
+                      id="subscribe_email"
+                      checked={field.value}
+                      onCheckedChange={field.onChange}
+                      disabled={loading}
+                    />
                     <Label htmlFor="subscribe_email">Desejo receber notícias em meu e-mail</Label>
                   </div>
                 )}
