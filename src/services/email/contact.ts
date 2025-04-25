@@ -1,7 +1,7 @@
 import emailjs from '@emailjs/browser';
 
 const TEMPLATE = 'template_szaoup9';
-const SERVICE = 'service_eapxdme';
+const SERVICE = 'service_w5ktbee';
 const PUBLIC_KEY = 'KAuGyvuhBXHnKAaTF';
 
 // comercial@nvisolucoes.com.br
