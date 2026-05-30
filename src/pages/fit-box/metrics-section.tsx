@@ -46,9 +46,9 @@ const MetricsSection = () => {
           </MetricsSectionIcon>
 
           <MetricsSectionDescriptionContainer>
-            <MetricsSectionTitle>500.000 +</MetricsSectionTitle>
+            <MetricsSectionTitle>1.000.000 +</MetricsSectionTitle>
             <MetricsSectionDescription>
-              Peças <br /> Vendidas
+              Instalações <br /> Padronizadas
             </MetricsSectionDescription>
           </MetricsSectionDescriptionContainer>
         </MetricsSectionItem>
@@ -65,7 +65,7 @@ const MetricsSection = () => {
             <MetricsSectionTitle>5</MetricsSectionTitle>
             <MetricsSectionDescription>
               Estrelas em
-              <br /> Vendas
+              <br /> Satisfação
             </MetricsSectionDescription>
           </MetricsSectionDescriptionContainer>
         </MetricsSectionItem>
@@ -78,9 +78,9 @@ const MetricsSection = () => {
           </MetricsSectionIcon>
 
           <MetricsSectionDescriptionContainer>
-            <MetricsSectionTitle>250 +</MetricsSectionTitle>
+            <MetricsSectionTitle>300 +</MetricsSectionTitle>
             <MetricsSectionDescription>
-              Empresas <br /> Parceiras
+              Provedores
             </MetricsSectionDescription>
           </MetricsSectionDescriptionContainer>
         </MetricsSectionItem>
